@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_roles"
+    >
+
+    <Button
+        android:id="@+id/securityButton"
+        android:layout_width="335dp"
+        android:alpha="0.75"
+        android:layout_height="114dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="127dp"
+        android:backgroundTint="#6C000013"
+        android:text="I am a Security"
+        android:textColor="#FAF5D8"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="106dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="643dp"
+        android:alpha="0.7"
+        android:background="@drawable/app_logo" />
+
+    <Button
+        android:id="@+id/studentButton"
+        android:layout_width="325dp"
+        android:layout_height="110dp"
+        android:alpha="0.75"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="313dp"
+        android:backgroundTint="#6C000013"
+        android:text="I am a Student"
+        android:textColor="#FAF5D8"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="521dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sir MVIT Parking \nAssistance"
+        android:textAlignment="center"
+
+        android:textColor="#EDFBF3D3"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+</RelativeLayout>
